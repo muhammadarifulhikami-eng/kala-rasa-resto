@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kala Rasa Café &amp; Resto — Menu, Promo &amp; Reservasi</title>
+  <meta
+    name="description"
+    content="Kala Rasa Café & Resto: Nikmati hidangan lezat dengan suasana hangat. Lihat menu & harga, promo spesial, jam buka, lokasi Google Maps, pesan online, dan reservasi meja."
+  />
+  <link rel="icon" type="image/png" href="assets/favicon-h.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="resto-header" id="restoHeader">
+    <div class="container header-inner">
+      <a href="#top" class="resto-brand" aria-label="Kala Rasa Café & Resto">
+        <svg class="resto-emblem" viewBox="0 0 42 42" fill="none" aria-hidden="true">
+          <circle cx="21" cy="21" r="19" stroke="#E0B266" stroke-width="1.8" fill="rgba(224,178,102,0.08)" />
+          <path d="M21 10C15.5 14 14 21 21 31C28 21 26.5 14 21 10Z" stroke="#E0B266" stroke-width="1.8" />
+          <path d="M21 13V31M21 19L17 16.5M21 23L25 20.5" stroke="#E0B266" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        <div class="brand-text">
+          <strong>KALA RASA</strong>
+          <span>CAFÉ &amp; RESTO</span>
+        </div>
+      </a>
+
+      <nav class="resto-nav" aria-label="Navigasi Restoran">
+        <a href="#top" class="nav-link active">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang Kami</a>
+        <a href="#menu" class="nav-link">Menu &amp; Harga</a>
+        <a href="#promo" class="nav-link">Promo</a>
+        <a href="#lokasi" class="nav-link">Lokasi &amp; Order</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn-gold-nav" id="openReserveNav">📅 Reservasi Sekarang</button>
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a href="#top">Beranda</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#menu">Menu &amp; Harga</a>
+      <a href="#promo">Promo Spesial</a>
+      <a href="#lokasi">Lokasi &amp; Pemesanan Online</a>
+      <a href="#kontak">Kontak &amp; Jam Buka</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="assets/hero-dining.jpg" alt="Hidangan spesial Kala Rasa Café & Resto" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <h1>
+          Rasa Lezat,<br />
+          Suasana Hangat,<br />
+          <span class="gold-italic">Momen Tak Terlupakan</span>
+        </h1>
+        <p class="hero-desc">
+          Nikmati hidangan terbaik kami yang diracik dari bahan pilihan segar setiap hari untuk pengalaman kuliner istimewa bersama keluarga, sahabat, maupun rekan kerja.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#menu" class="btn-gold">🍴 Lihat Menu &amp; Harga</a>
+          <button type="button" class="btn-outline-light" id="openReserveHero">📅 Reservasi Meja</button>
+        </div>
+
+        <div class="hero-features">
+          <div class="hf-item"><span>🌿</span><div><strong>Bahan Berkualitas</strong><small>Segar setiap hari</small></div></div>
+          <div class="hf-item"><span>👨‍🍳</span><div><strong>Chef Berpengalaman</strong><small>Cita rasa autentik</small></div></div>
+          <div class="hf-item"><span>🕯️</span><div><strong>Suasana Nyaman</strong><small>Cocok untuk semua momen</small></div></div>
+          <div class="hf-item"><span>💛</span><div><strong>Pelayanan Ramah</strong><small>Kepuasan tamu prioritas kami</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section-about" id="tentang">
+      <div class="container about-grid">
+        <div class="about-photo-wrap">
+          <img src="assets/interior-cafe.jpg" alt="Interior hangat Kala Rasa Café & Resto" />
+        </div>
+
+        <div class="about-copy">
+          <span class="script-kicker">Tentang Kami</span>
+          <h2>Lebih dari Sekadar Tempat Makan</h2>
+          <p>
+            Kala Rasa Café &amp; Resto hadir untuk menyatukan kelezatan hidangan dengan kenyamanan suasana ruang yang hangat dan estetik. Tempat sempurna untuk bersantai, merayakan momen spesial, hingga rapat santai.
+          </p>
+
+          <div class="about-stats">
+            <div class="astat"><strong>+10</strong><span>Tahun Pengalaman</span></div>
+            <div class="astat"><strong>100%</strong><span>Bahan Segar Pilihan</span></div>
+            <div class="astat"><strong>4.8 ★</strong><span>Rating Tamu Google</span></div>
+            <div class="astat"><strong>1.200+</strong><span>Tamu Setiap Bulan</span></div>
+          </div>
+
+          <a href="#lokasi" class="btn-forest">Lihat Lokasi &amp; Jam Buka →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU & HARGA SECTION -->
+    <section class="section-menu" id="menu">
+      <div class="container">
+        <div class="menu-header">
+          <span class="script-kicker center">Menu Favorit Kami</span>
+          <h2>Pilihan Menu Spesial &amp; Harga</h2>
+          <div class="menu-tabs" role="tablist" aria-label="Kategori Menu">
+            <button type="button" class="menu-tab active" data-cat="all">Semua Menu</button>
+            <button type="button" class="menu-tab" data-cat="makanan">Makanan</button>
+            <button type="button" class="menu-tab" data-cat="minuman">Minuman</button>
+            <button type="button" class="menu-tab" data-cat="dessert">Dessert</button>
+          </div>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+          <article class="menu-card" data-cat="makanan">
+            <img src="assets/menu-steak.jpg" alt="Grilled Herb Chicken" />
+            <div class="menu-body">
+              <span class="menu-cat-label">MAKANAN UTAMA</span>
+              <h3>Grilled Herb Chicken</h3>
+              <p>Ayam panggang bumbu rempah spesial, disajikan dengan baby potato dan sayuran segar.</p>
+              <div class="menu-foot">
+                <strong class="menu-price">Rp 58.000</strong>
+                <button type="button" class="btn-order-item" data-item="Grilled Herb Chicken (Rp 58.000)">Pesan WA</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-cat="makanan">
+            <img src="assets/menu-carbonara.jpg" alt="Creamy Beef Carbonara" />
+            <div class="menu-body">
+              <span class="menu-cat-label">MAKANAN UTAMA</span>
+              <h3>Creamy Carbonara</h3>
+              <p>Pasta lembut dengan saus krim gurih, smoked beef renyah, dan taburan keju parmesan.</p>
+              <div class="menu-foot">
+                <strong class="menu-price">Rp 62.000</strong>
+                <button type="button" class="btn-order-item" data-item="Creamy Carbonara (Rp 62.000)">Pesan WA</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-cat="makanan">
+            <img src="assets/menu-burger.jpg" alt="Signature Beef Burger" />
+            <div class="menu-body">
+              <span class="menu-cat-label">MAKANAN UTAMA</span>
+              <h3>Signature Beef Burger</h3>
+              <p>Burger daging sapi premium panggang arang dengan keju cheddar leleh dan kentang goreng.</p>
+              <div class="menu-foot">
+                <strong class="menu-price">Rp 55.000</strong>
+                <button type="button" class="btn-order-item" data-item="Signature Beef Burger (Rp 55.000)">Pesan WA</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-cat="minuman">
+            <img src="assets/menu-latte.jpg" alt="Hazelnut Cafe Latte" />
+            <div class="menu-body">
+              <span class="menu-cat-label">MINUMAN</span>
+              <h3>Hazelnut Cafe Latte</h3>
+              <p>Espresso house-blend dipadu susu segar creamy dan sirup hazelnut panggang yang harum.</p>
+              <div class="menu-foot">
+                <strong class="menu-price">Rp 32.000</strong>
+                <button type="button" class="btn-order-item" data-item="Hazelnut Cafe Latte (Rp 32.000)">Pesan WA</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card" data-cat="dessert">
+            <img src="assets/menu-cake.jpg" alt="Strawberry Cheesecake" />
+            <div class="menu-body">
+              <span class="menu-cat-label">DESSERT</span>
+              <h3>Strawberry Cheesecake</h3>
+              <p>Cheesecake lembut gaya New York dengan topping saus stroberi segar buatan dapur kami.</p>
+              <div class="menu-foot">
+                <strong class="menu-price">Rp 40.000</strong>
+                <button type="button" class="btn-order-item" data-item="Strawberry Cheesecake (Rp 40.000)">Pesan WA</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMO SPESIAL SECTION -->
+    <section class="section-promo" id="promo">
+      <div class="container promo-layout">
+        <div class="promo-intro">
+          <h2>Promo Spesial Bulan Ini!</h2>
+          <p>Dapatkan penawaran menarik dan hemat lebih banyak setiap hari di Kala Rasa Café &amp; Resto.</p>
+          <button type="button" class="btn-gold" id="claimPromoBtn">Klaim Promo via WhatsApp →</button>
+        </div>
+
+        <div class="promo-cards">
+          <article class="promo-card">
+            <span class="promo-tag">LUNCH DEAL · 11.00 - 14.00 WIB</span>
+            <h3>DISC. 20%</h3>
+            <p>Untuk semua menu makanan utama pilihan di hari kerja.</p>
+          </article>
+
+          <article class="promo-card dark">
+            <span class="promo-tag gold">WEEKEND SPECIAL</span>
+            <h3>BUY 1 GET 1</h3>
+            <p>Gratis minuman signature pilihan setiap Sabtu &amp; Minggu.</p>
+          </article>
+
+          <article class="promo-card dark">
+            <span class="promo-tag gold">FAMILY PACKAGE</span>
+            <h3>HEMAT 25%</h3>
+            <p>Paket lengkap makan berempat sudah termasuk minuman &amp; dessert.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOKASI, JAM BUKA, MAPS & ORDER ONLINE -->
+    <section class="section-location" id="lokasi">
+      <div class="container location-grid">
+        <div class="loc-card">
+          <span class="script-kicker">Kunjungi Kami</span>
+          <h2>Lokasi, Jam Buka &amp; Reservasi</h2>
+          <ul class="loc-details">
+            <li><strong>📍 Alamat:</strong> Jl. Kemang Raya No. 45, Jakarta Selatan 12730</li>
+            <li><strong>🕒 Jam Buka:</strong> Setiap Hari, 09.00 – 22.00 WIB</li>
+            <li><strong>📞 Telepon:</strong> (021) 719-8844</li>
+            <li><strong>💬 WhatsApp:</strong> +62 878-7759-0663</li>
+          </ul>
+          <div class="loc-actions">
+            <a
+              href="https://maps.google.com/?q=Kemang+Raya+Jakarta+Selatan"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-forest"
+            >📍 Buka Google Maps ↗</a>
+            <a
+              href="https://wa.me/6287877590663?text=Halo%20Kala%20Rasa%20Cafe%20%26%20Resto%2C%20saya%20ingin%20bertanya%20atau%20pesan%20meja."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-wa-outline"
+            >💬 Chat WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="loc-card online-order-card">
+          <span class="script-kicker">Pesan Antar Praktis</span>
+          <h2>Pesan Online dari Rumah</h2>
+          <p>
+            Sedang sibuk di rumah atau kantor? Pesan menu favorit Anda melalui platform pengantaran online mitra resmi kami atau langsung via WhatsApp resto.
+          </p>
+          <div class="platform-grid">
+            <a href="https://gofood.co.id" target="_blank" rel="noopener noreferrer" class="platform-pill gofood">🟢 GoFood · Kala Rasa</a>
+            <a href="https://food.grab.com" target="_blank" rel="noopener noreferrer" class="platform-pill grabfood">🟢 GrabFood · Kala Rasa</a>
+            <a href="https://shopee.co.id/m/shopeefood" target="_blank" rel="noopener noreferrer" class="platform-pill shopeefood">🟠 ShopeeFood · Kala Rasa</a>
+            <button type="button" class="platform-pill wa-direct" id="openReserveLoc">📅 Booking Meja Sekarang</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="resto-footer" id="kontak">
+    <div class="container footer-grid">
+      <div>
+        <div class="resto-brand">
+          <svg class="resto-emblem" viewBox="0 0 42 42" fill="none" aria-hidden="true">
+            <circle cx="21" cy="21" r="19" stroke="#E0B266" stroke-width="1.8" fill="rgba(224,178,102,0.08)" />
+            <path d="M21 10C15.5 14 14 21 21 31C28 21 26.5 14 21 10Z" stroke="#E0B266" stroke-width="1.8" />
+            <path d="M21 13V31M21 19L17 16.5M21 23L25 20.5" stroke="#E0B266" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+          <div class="brand-text">
+            <strong>KALA RASA</strong>
+            <span>CAFÉ &amp; RESTO</span>
+          </div>
+        </div>
+        <p class="footer-about">
+          Tempat terbaik menikmati hidangan hangat berkualitas dengan suasana nyaman di Jakarta Selatan.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#menu">Makanan Utama</a></li>
+          <li><a href="#menu">Minuman &amp; Kopi</a></li>
+          <li><a href="#menu">Dessert</a></li>
+          <li><a href="#promo">Paket Promo</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Layanan</h4>
+        <ul>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#lokasi">Google Maps</a></li>
+          <li><a href="#lokasi">GoFood &amp; GrabFood</a></li>
+          <li><a href="#top" id="footerReserveLink">Reservasi Meja</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontak Kami</h4>
+        <ul>
+          <li>Jl. Kemang Raya No. 45, Jakarta Selatan</li>
+          <li>(021) 719-8844 · +62 878-7759-0663</li>
+          <li>hello@kalarasa.id</li>
+          <li>Setiap Hari: 09.00 – 22.00 WIB</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 Kala Rasa Café &amp; Resto (Showcase Demo). All Rights Reserved.</span>
+      <span>Design by <a href="https://dev.hikami.my.id" target="_blank" rel="noopener noreferrer" class="hikami-credit">HIKAMI-DEV | ひかみ</a></span>
+    </div>
+  </footer>
+
+  <!-- MODAL RESERVASI MEJA -->
+  <div class="modal-backdrop" id="reserveModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="reserveTitle">
+      <button type="button" class="modal-close" id="reserveClose" aria-label="Tutup">×</button>
+      <span class="script-kicker">Reservasi Meja</span>
+      <h3 id="reserveTitle">Pesan Meja di Kala Rasa</h3>
+      <form class="reserve-form" id="reserveForm">
+        <input type="text" id="resName" placeholder="Nama Pemesan" required />
+        <div class="form-2col">
+          <input type="date" id="resDate" required />
+          <input type="time" id="resTime" value="19:00" required />
+        </div>
+        <select id="resGuests">
+          <option value="2 Orang">2 Orang</option>
+          <option value="4 Orang">4 Orang</option>
+          <option value="6+ Orang (Rombongan/Keluarga)">6+ Orang (Rombongan/Keluarga)</option>
+        </select>
+        <input type="text" id="resNote" placeholder="Catatan (opsional, misal area indoor/outdoor)" />
+        <button type="submit" class="btn-gold" style="width:100%;justify-content:center;">Konfirmasi via WhatsApp →</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
